@@ -89,3 +89,19 @@ img {
     background-color: #8fac55;
     text-decoration: line-through;
 }
+
+.task-text {
+    cursor: pointer; /* Muda o cursor para um ponteiro ao passar o mouse */
+    font-size: 16px; /* Tamanho da fonte */
+    color: #333; /* Cor do texto */
+    /* Adicione outros estilos conforme necessário */
+}
+
+.input-edit {
+    font-size: 16px; /* Mesma fonte que a tarefa */
+    color: #333; /* Mesma cor que a tarefa */
+    border: none; /* Sem borda para parecer mais com o texto */
+    background: transparent; /* Fundo transparente */
+    width: 100%; /* Para preencher o espaço disponível */
+    text-align: center;
+}
